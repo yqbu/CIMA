@@ -5,3 +5,22 @@ An end-to-end framework for multimodal cancer survival prediction that harmonize
 
 ## Introduction
 Cancer survival analysis with multimodal data is crucial for precise treatments and patient benefits. However, the following challenges prohibit integrating histopathology and genomics: (i) multimodal data is not always complete, especially for the more costly genomics data; (ii) intricate interactions between different modalities are difficult to capture and understand. To respond, we propose an end-to-end framework (CIMA) that coordinates **C**ycl**i**c modality generation and **M**ulti-grained multimodal **A**lignment. Specifically, CIMA designs a cyclic modality reconstruction module to reciprocally impute missing modalities and infer the interactions between them. Next, it introduces the multi-grained alignment module over the imputed data and interactions to mine fine-grained alignments between histopathology (slide patches) and genomics (biological pathways). CIMA then constructs the adaptive fusion module to leverage multimodal data and alignments for survival prediction. Extensive experiments on cancer benchmark datasets demonstrate that CIMA outperforms existing methods and exhibits good interpretability, providing valuable insights into intricate relationships between pathological phenotypes and biological pathways.
+
+## Dependencies
+**To be continued.**
+
+## Contents of this repository
+In this repository, you can find the following folders:
+
+**To be continued.**
+
+## Usage
+
+### Downloading TCGA Data
+**To be continued.**
+
+### Running Experiments
+Experiments can be executed through the script main.py. The basic usage to run a cancer subtype diagnosis task on the STAD dataset is as follows:
+```
+python main.py
+```
